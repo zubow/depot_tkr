@@ -8,10 +8,10 @@
 2. Place CSV file(s) into directory dir/
 3. Import using
 ```
-    python3 import_from_consors_csv.py --label "7. Sep. 2021" /tmp/consors_csv/07092021/
+    python3 import_from_consors_csv.py --plot True --label "7. Sep. 2021" /tmp/consors_csv/07092021/
 ```
 
-### B. Import WKn to ISIN mapping
+### B. Import WKN to ISIN mapping
 In order to get the live price of your stocks you need the International Securities Identification Number (ISIN) of each stock 
 
 1. Add for each stock you might have in your depot a WKN to ISIN mapping
