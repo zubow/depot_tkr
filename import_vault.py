@@ -12,7 +12,7 @@ gp = GoldPrice()
 last_gold_price_eur = float(gp.fetch_price('EUR'))
 print('Last gold price: %2.f €' % (last_gold_price_eur))
 
-gold_amount = 47.0 # in ounces
+gold_amount = 1.0 # in ounces
 vault_db.store_price(timestamp, 'GOLD', gold_amount, last_gold_price_eur)
 
 total_gold_val = last_gold_price_eur * gold_amount
